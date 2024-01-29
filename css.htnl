@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .box{
+        
+        height: 30vh;
+        /* background-color: red; */
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" style="background-color: aquamarine;">
+        This is an example of inline css</div>
+
+        <div class="box">
+             height of the  box are given though internal css
+        </div>
+
+        <div class="box">
+            all the other styling are given through external css
+        </div>
+    </div>
+</body>
+</html>

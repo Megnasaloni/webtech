@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        width: fit-content;
+        gap: 8px;
+    }
+
+    body{
+        background-color: rgb(19, 71, 118);
+        color: antiquewhite;
+    }
+    input{
+        border-radius: 8px;
+    }
+    .btn:hover{
+        background-color: aquamarine;
+    }
+</style>
+
+<body>
+    <h1>your bio data</h1>
+   <form action="">
+
+    <div class="main">
+        <label for="text">Enter Your name : </label>
+      <input type="text" name="text">
+        <label for="number">Enter Your age in number</label>
+      <input type="number" name="number">
+
+      <!-- <label for="sex"> choose your gender : </label> -->
+    <div>
+        Choose Your gender <br>
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="male" value="male">
+  
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="female" value="female"> 
+    </div>
+        <label for="dob">Enter your dob</label>
+      <input type="date" name="dob" id="">
+      
+    <label for="dept">Choose your department : </label>
+      <select name="dept" id="" >
+        <option value="Choose" selected>Choose here</option>
+        <option value="CE">CE</option>
+        <option value="ISE">ISE</option>
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="ECE">ECE</option>
+      </select>
+
+        <label for="mailid">Enter your mail id </label>
+      <input type="email" name="mailid" id="">
+
+        <label for="textarea">describe your self in short</label>
+      <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+
+      <input type="button" class="btn" value="submit">
+      <input type="reset" class="btn" value="reset">
+
+    </div>
+
+
+   </form>
+
+</body>
+</html>
